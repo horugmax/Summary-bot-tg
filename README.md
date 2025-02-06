@@ -6,7 +6,7 @@
 +	Use Responsibly: The project is provided “as is,” and the maintainers are not responsible for any potential data loss, leaks, or unintended consequences.
 
 ## What is it
-It is a Telegram bot that collects messages from chats and processes them using ChatGPT.
+It is a Telegram bot that collects text messages from chats and processes them using ChatGPT.
 
 ### Installation
 
@@ -20,7 +20,7 @@ It is a Telegram bot that collects messages from chats and processes them using 
 
 ```
 python3 -m venv <env_name>
-source <env_name>/bin/activate   # On Windows use: venv\Scripts\activate
+source <env_name>/bin/activate  
 ```
 
 3.	Install Dependencies
@@ -49,10 +49,12 @@ To start the bot, simply run the main script:
 ```
 python main.py
 ```
+Due to Telegram’s security restrictions, the first launch and registration must be performed from the command line.
 
 ### Commands
 +	/start - Greets the user and provides basic information about the bot.
 +	/register - Registers the user with the bot.
+  	Due to Telegram’s security restrictions, the first login must be performed through the command line.
 +	/add - Adds a chat to your summary list.
 	Usage: Send /add and follow the prompt to specify the chat number.
 +	/delete - Deletes a chat from your list.
