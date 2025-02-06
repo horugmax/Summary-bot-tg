@@ -1,0 +1,10 @@
+{
+  "phrase": "Provide a concise summary of those messages in a language of original",
+  "model": "your-openai-model",         // e.g., "gpt-3.5-turbo"
+  "filename": "your-filename",           // Base filename for storing bot data
+  "users": [123456789, 987654321],       // List of authorized Telegram user IDs
+  "api_id": "your_api_id",
+  "api_hash": "your_api_hash",
+  "bot_token": "your_bot_token",
+  "openai_api_key": "your_openai_api_key"
+}
