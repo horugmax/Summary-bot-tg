@@ -61,7 +61,7 @@ Due to Telegram’s security restrictions, the first launch and registration mus
 	Usage: Send /delete and follow the prompt to specify the chat number.
 +	/now - Immediately processes messages from your registered chats using ChatGPT.
 	Usage: Send /now and follow the prompt to specify the number of hours to parse messages from.
-+	/list - Lists all the chats registered to your user account.
++	/list - Lists chats registered to your user account.
 +	/list_current - Lists the currently active chats for the user.
 +	/id - Returns your Telegram user ID. (insert your user_id to Bot_config.json)
 +	/remove - Removes all your information from the bot system.
